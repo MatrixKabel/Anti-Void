@@ -1,0 +1,26 @@
+Config:
+  Message: §d[Anti-Void] >> §cYou fall out of world and got teleportet to the spawn!
+    
+#Worlds format:
+
+# name: name of the world
+# Config: dont change this
+# respawn?: do you will respawn or fall into void? fall into void = false, respawn = true
+# respawn-World?: in wich world do you will respawn (when you have respawn? true)
+# respawn: dont change this
+# X: X cordinate of respawn
+# Y: Y cordinate of respawn
+# Z: Z cordinate of respawn
+# yaw: yaw cordinate of respawn
+# pitch: pich cordinate of respawn
+
+world:
+  Config:
+    respawn-World?: world
+    respawn?: true
+  respawn:
+    X: 0
+    Y: 250
+    Z: 0
+    yaw: 0
+    pitch: 0

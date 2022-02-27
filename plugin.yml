@@ -1,0 +1,12 @@
+name: anti-void
+version: 3.0
+api-version: 1.16
+main: de.matrixkabel.antivoid.main.AntiVoid
+
+commands:
+   voidmessage:
+      description: change the void message
+   addworld:
+      description: add/update a world
+   deleteworld:
+      description: delete a world
